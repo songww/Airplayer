@@ -39,9 +39,9 @@ default hostname.
 Example:
 AIRPLAY_HOSTNAME = 'My XBMC player'
 """
-AIRPLAY_HOSTNAME = None
+AIRPLAY_HOSTNAME = 'My MBP player'
 
 """
 Debug mode, set to False to disable debug logging.
 """
-DEBUG = False
+DEBUG = True

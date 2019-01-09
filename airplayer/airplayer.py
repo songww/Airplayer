@@ -222,7 +222,7 @@ class Application(object):
         """
         self._zeroconf.unregister_service(self._server_info)
         self._zeroconf.close()
-        self._protocol.join()
+        self._protocol.join(timeout=0.01)
         self._media_backend.stop_playing()
 
         if self._opts.daemon:
